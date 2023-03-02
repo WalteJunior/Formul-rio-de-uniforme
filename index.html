@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title> Desafio 4 </title>
+    <meta charset="UTF-8">
+    <meta name="viewport"  content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1> Formulario de uniformes </h1>
+    </header>
+    <main>
+      <form>
+        <div class="dados">
+         <label> Nome completo:</label>
+         <input class="nome"type="text" name="nome">
+         
+         <label> Telefone: </label>
+         <input class="num"type="tel" name="numero" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="(DD)xxxxx-xxxx">
+         
+         <label> Email: </label>
+         <input class="gmail"type ="email" name="email" placeholder="xxxx@gmail.com">
+
+         <label> Turma:</label>
+         <input class="nome"type="text" name="nome" placeholder="Turma xxxx">
+        
+         <label> Professor(a):</label>
+         <input class="nome"type="text" name="nome" placeholder="Professor(a) xxxx">
+        </div>
+        <h2>Tamanho de Camisa</h2>
+        <div class="tam">
+         <label id="choice"> P </label>
+         <input type="radio" id="shirtchoice" name="choice" value="P">
+         <label id="choice"> M </label>
+         <input type="radio" id="shirtchoice" name="choice" value="M">
+         <label id="choice"> G </label>
+         <input type="radio" id="shirtchoice" name="choice" value="G">
+         <label id="choice"> GG </label>
+         <input type="radio" id="shirtchoice" name="choice" value="GG">
+       </div>
+       <button>Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>
